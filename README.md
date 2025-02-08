@@ -1,0 +1,2 @@
+# arxiv_LLM_analyzer
+本地爬取arxiv上的相关论文，直接导入摘要信息或采用marker进行文本整合，基于本地运行的deepseek进行分析。
