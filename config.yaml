@@ -1,0 +1,18 @@
+arxiv:
+  search_query:
+    - "reinforcement learning on LLMs"       # 强化学习
+    - "large language models"        # 大语言模型
+    - "RAG LLMs"        # 图神经网络
+    - "recommend system based on LLMs"              # 计算机视觉
+    - "multimodal LMs and Visual Large Model"         # 时间序列分析
+  max_results: 50
+  update_interval: 86400  # 12小时
+
+model:
+  path: "E:/LLM_model/modelscope/deepseek/deepseek-llm-7b-chat"
+  chunk_size: 3000
+  max_length: 2048
+
+paths:
+  pdf_storage: "./arxiv_papers"
+  summaries: "./summaries"
